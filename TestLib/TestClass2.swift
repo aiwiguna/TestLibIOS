@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TestClass2 {
+open class TestClass2 {
     
     func someString()->String{
         return "someString";
