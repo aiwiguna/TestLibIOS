@@ -10,6 +10,8 @@
 		2A81B9B01F5F9E110009869B /* TestLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A81B9A61F5F9E110009869B /* TestLib.framework */; };
 		2A81B9B51F5F9E110009869B /* TestLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A81B9B41F5F9E110009869B /* TestLibTests.swift */; };
 		2A81B9B71F5F9E110009869B /* TestLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A81B9A91F5F9E110009869B /* TestLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A81B9C11F5F9E480009869B /* TestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A81B9C01F5F9E480009869B /* TestClass.swift */; };
+		2A81B9C31F5FA09C0009869B /* TestClass2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A81B9C21F5FA09C0009869B /* TestClass2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		2A81B9AF1F5F9E110009869B /* TestLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A81B9B41F5F9E110009869B /* TestLibTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLibTests.swift; sourceTree = "<group>"; };
 		2A81B9B61F5F9E110009869B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A81B9C01F5F9E480009869B /* TestClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestClass.swift; sourceTree = "<group>"; };
+		2A81B9C21F5FA09C0009869B /* TestClass2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestClass2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 			children = (
 				2A81B9A91F5F9E110009869B /* TestLib.h */,
 				2A81B9AA1F5F9E110009869B /* Info.plist */,
+				2A81B9C01F5F9E480009869B /* TestClass.swift */,
+				2A81B9C21F5FA09C0009869B /* TestClass2.swift */,
 			);
 			path = TestLib;
 			sourceTree = "<group>";
@@ -148,6 +154,7 @@
 					2A81B9A51F5F9E110009869B = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = BVU3WW7EVB;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					2A81B9AE1F5F9E110009869B = {
@@ -197,6 +204,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A81B9C11F5F9E480009869B /* TestClass.swift in Sources */,
+				2A81B9C31F5FA09C0009869B /* TestClass2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +332,7 @@
 		2A81B9BB1F5F9E110009869B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = BVU3WW7EVB;
@@ -335,6 +345,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.aiwiguna.TestLib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -342,6 +353,7 @@
 		2A81B9BC1F5F9E110009869B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = BVU3WW7EVB;
@@ -361,6 +373,7 @@
 		2A81B9BE1F5F9E110009869B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = BVU3WW7EVB;
 				INFOPLIST_FILE = TestLibTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -373,6 +386,7 @@
 		2A81B9BF1F5F9E110009869B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = BVU3WW7EVB;
 				INFOPLIST_FILE = TestLibTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
