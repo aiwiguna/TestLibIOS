@@ -12,6 +12,7 @@
 		2A81B9B71F5F9E110009869B /* TestLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A81B9A91F5F9E110009869B /* TestLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2A81B9C11F5F9E480009869B /* TestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A81B9C01F5F9E480009869B /* TestClass.swift */; };
 		2A81B9C31F5FA09C0009869B /* TestClass2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A81B9C21F5FA09C0009869B /* TestClass2.swift */; };
+		2AA366801F5FA81100978273 /* ISRadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA3667F1F5FA81100978273 /* ISRadioButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +34,7 @@
 		2A81B9B61F5F9E110009869B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A81B9C01F5F9E480009869B /* TestClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestClass.swift; sourceTree = "<group>"; };
 		2A81B9C21F5FA09C0009869B /* TestClass2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestClass2.swift; sourceTree = "<group>"; };
+		2AA3667F1F5FA81100978273 /* ISRadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISRadioButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				2A81B9AA1F5F9E110009869B /* Info.plist */,
 				2A81B9C01F5F9E480009869B /* TestClass.swift */,
 				2A81B9C21F5FA09C0009869B /* TestClass2.swift */,
+				2AA3667F1F5FA81100978273 /* ISRadioButton.swift */,
 			);
 			path = TestLib;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AA366801F5FA81100978273 /* ISRadioButton.swift in Sources */,
 				2A81B9C11F5F9E480009869B /* TestClass.swift in Sources */,
 				2A81B9C31F5FA09C0009869B /* TestClass2.swift in Sources */,
 			);
@@ -415,6 +419,7 @@
 				2A81B9BC1F5F9E110009869B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A81B9BD1F5F9E110009869B /* Build configuration list for PBXNativeTarget "TestLibTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +428,7 @@
 				2A81B9BF1F5F9E110009869B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
